@@ -3,10 +3,10 @@ package ObjectOrientedProgramming;
 // Basic way of writing the code
 class Car{
     public void carName(String name){
-        System.out.println("Car Name: " + name);
+        System.out.println("Name: " + name);
     }
     public void carEngine(String engine){
-        System.out.println("Car Engine: " + engine);
+        System.out.println("Engine: " + engine);
     }
 }
 
@@ -21,8 +21,9 @@ class Animal{
     }
 
     public void display(){
-        System.out.println("Animal Name: " + animalName);
-        System.out.println("Animal Breed: " + animalBreed);
+        System.out.println("--- Animal Details ---");
+        System.out.println("Name : " + animalName);
+        System.out.println("Breed: " + animalBreed);
     }
 }
 
@@ -30,7 +31,7 @@ public class ClassAndObject {
     public static void main(String[] args) {
        Car car1 = new Car();
        Car car2 = new Car();
-
+       System.out.println("--- Car Details ---");
        car1.carName("BMW");
        car1.carEngine("S55 Engine");
 
