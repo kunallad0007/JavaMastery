@@ -50,7 +50,7 @@
         Add a transactionId field to each child and print it randomly. (optional)
 
 */
-package Inheritance;
+package ObjectOrientedProgramming;
 
 import java.util.Random;
 
@@ -68,7 +68,7 @@ abstract class Payment{
 
     public String transactionalId(int idDigit){
         StringBuilder result = new StringBuilder(idDigit);
-        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz";
+        String characters = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         Random random = new Random();
         for (int i = 0; i < idDigit; i++){
             result.append(characters.charAt(random.nextInt(characters.length())));
