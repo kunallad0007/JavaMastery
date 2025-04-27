@@ -42,7 +42,7 @@ Here are some of the core skills and technologies I've been working on:
 ### Steps to run
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/Java-Full-Stack-Development.git
+   git clone https://github.com/kunallad0007/JavaMastery.git
 
 2. Navigate to the project directory and open it in your IDE.
 3. Run the Java classes by right-clicking and selecting Run As > Java Application.
