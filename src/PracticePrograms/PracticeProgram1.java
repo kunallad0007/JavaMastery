@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package PracticePrograms;
 
 /*
 Challenge:
